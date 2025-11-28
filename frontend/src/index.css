@@ -1,0 +1,16 @@
+:root { --bg:#f7f9fc; --muted:#6b7280; }
+body { margin:0; font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:#0f172a; }
+.app-root { max-width:1200px; margin:24px auto; padding:16px; }
+.app-header { display:flex; justify-content:space-between; align-items:center; }
+.app-header h1 { margin:0; font-size:20px; }
+.card { background:#fff; padding:16px; border-radius:12px; box-shadow:0 6px 18px rgba(15,23,42,0.06); }
+.candidate { display:flex; justify-content:space-between; align-items:center; padding:12px; }
+.candidate-left { display:flex; gap:12px; align-items:center; }
+.avatar { width:48px; height:48px; border-radius:8px; background:#eef2ff; display:flex; align-items:center; justify-content:center; font-weight:700; }
+.badge { padding:6px 8px; border-radius:999px; font-size:12px; }
+.status-pending { background:#fff7ed; color:#b45309; }
+.status-reviewed { background:#eef2ff; color:#3730a3; }
+.status-hired { background:#ecfdf5; color:#166534; }
+.btn { padding:8px 12px; border-radius:8px; background:#0f172a; color:#fff; border:none; }
+.btn.secondary { background:transparent; color:#0f172a; border:1px solid rgba(15,23,42,0.06); }
+.cards-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:12px; }
